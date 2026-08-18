@@ -713,6 +713,26 @@ a.k-item:hover {
   display: block;
 }
 
+/* Kontakt-Karte (Google Maps) */
+.kontakt-map {
+  margin-top: 32px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-md);
+  line-height: 0;
+}
+
+.kontakt-map iframe {
+  display: block;
+  filter: grayscale(12%) contrast(1.02);
+  transition: filter var(--transition);
+}
+
+.kontakt-map:hover iframe {
+  filter: grayscale(0%) contrast(1);
+}
+
 /* ═══════════════════════════════════════
    IMPRESSUM (Sektion in index.html)
 ═══════════════════════════════════════ */
