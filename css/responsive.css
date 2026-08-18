@@ -13,6 +13,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .review-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .leistung-feature {
     grid-template-columns: 1fr;
     gap: 36px;
@@ -118,8 +122,9 @@
 
 /* ── Kleines Mobil: bis 600px ────────── */
 @media (max-width: 600px) {
-  .phil-grid { grid-template-columns: 1fr; }
-  .lk-grid   { grid-template-columns: 1fr; }
+  .phil-grid    { grid-template-columns: 1fr; }
+  .lk-grid      { grid-template-columns: 1fr; }
+  .review-grid  { grid-template-columns: 1fr; }
 }
 
 /* ── Karriere-Seite: bis 680px ───────── */
