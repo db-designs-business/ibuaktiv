@@ -1,0 +1,101 @@
+/* ═══════════════════════════════════════
+   LOKALE FONTS (kein Google, DSGVO-konform)
+═══════════════════════════════════════ */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-garamond-v21-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  src: url('../fonts/cormorant-garamond-v21-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/plus-jakarta-sans-v12-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/plus-jakarta-sans-v12-latin-700.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ═══════════════════════════════════════
+   DESIGN TOKENS (CSS-Variablen)
+   Farben hier zentral ändern – gilt überall
+═══════════════════════════════════════ */
+:root {
+  /* Primärfarben – Grün-Palette */
+  --green-dark:   #1a4d2e;  /* Überschriften, aktive Nav-Links */
+  --green-mid:    #2d7a4f;  /* Links, Icons, Akzente */
+  --green-light:  #5cb85c;  /* Hover-Zustände */
+  --green-bright: #7cc43e;  /* CTA-Buttons, Badges */
+  --green-pale:   #e8f5e9;  /* Karten-Hintergrund hell */
+  --green-bg:     #f0f7f0;  /* Sektions-Hintergrund */
+
+  /* Neutrale Farben */
+  --white:        #ffffff;
+
+  /* Text-Farben */
+  --text:         #1a2e22;  /* Haupt-Textfarbe */
+  --text-mid:     #3d5a46;  /* Sekundärer Text (Fließtext) */
+  --text-light:   #6b8c74;  /* Hinweise, Beschriftungen */
+
+  /* UI-Hilfsvariablen */
+  --border:       rgba(26, 77, 46, 0.12);  /* Trennlinien */
+  --shadow-sm:    0 2px 12px rgba(26, 77, 46, 0.08);
+  --shadow-md:    0 8px 32px rgba(26, 77, 46, 0.12);
+  --shadow-lg:    0 20px 60px rgba(26, 77, 46, 0.18);
+  --radius:       20px;   /* Große Karten */
+  --radius-sm:    12px;   /* Kleine Elemente */
+  --transition:   0.3s ease;
+}
+
+/* ═══════════════════════════════════════
+   RESET & BASE
+═══════════════════════════════════════ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: var(--white);
+  color: var(--text);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--green-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green-mid);
+  border-radius: 3px;
+}

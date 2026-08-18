@@ -1,0 +1,123 @@
+/* ═══════════════════════════════════════
+   RECHTLICHE UNTERSEITEN
+   Wird von impressum.html & datenschutz.html genutzt
+═══════════════════════════════════════ */
+.legal-page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 120px 32px 80px;
+}
+
+.legal-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--green-mid);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  transition: color 0.2s;
+}
+
+.legal-back:hover { color: var(--green-dark); }
+
+.legal-page h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(36px, 5vw, 60px);
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.legal-page h1 em { font-style: italic; color: var(--green-dark); }
+
+.legal-subtitle {
+  font-size: 15px;
+  color: var(--text-light);
+  margin-bottom: 52px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--border);
+}
+
+.legal-block { margin-bottom: 44px; }
+
+.legal-block h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.legal-block h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 18px 0 8px;
+}
+
+.legal-block p {
+  font-size: 15px;
+  color: var(--text-mid);
+  line-height: 1.85;
+  margin-bottom: 12px;
+}
+
+.legal-block a { color: var(--green-mid); text-decoration: none; }
+.legal-block a:hover { text-decoration: underline; }
+
+.legal-block ul {
+  padding-left: 20px;
+  margin: 10px 0 16px;
+}
+
+.legal-block ul li {
+  font-size: 15px;
+  color: var(--text-mid);
+  line-height: 1.85;
+  margin-bottom: 4px;
+}
+
+.legal-info-box {
+  background: var(--green-bg);
+  border-left: 4px solid var(--green-bright);
+  border-radius: 0 12px 12px 0;
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+
+.legal-info-box p { margin: 0; font-size: 14px; color: var(--text-mid); }
+
+.legal-warning-box {
+  background: #fff8e1;
+  border-left: 4px solid #f0c040;
+  border-radius: 0 12px 12px 0;
+  padding: 20px 24px;
+  margin: 20px 0;
+}
+
+.legal-warning-box p { margin: 0; font-size: 14px; color: #6b5a00; }
+
+/* Inhaltsverzeichnis (Datenschutz) */
+.toc {
+  background: var(--green-bg);
+  border-radius: 16px;
+  padding: 28px 32px;
+  margin-bottom: 52px;
+}
+
+.toc h3 { font-size: 15px; font-weight: 700; color: var(--green-dark); margin-bottom: 14px; }
+.toc ol { padding-left: 20px; }
+.toc ol li { margin-bottom: 6px; }
+.toc ol li a { font-size: 14px; color: var(--green-mid); text-decoration: none; }
+.toc ol li a:hover { text-decoration: underline; color: var(--green-dark); }
+
+.last-updated {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 52px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}

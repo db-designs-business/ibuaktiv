@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBU Aktiv – Ambulanter Pflegedienst Kassel</title>
+    <meta name="description" content="IBU Aktiv – Ihr ambulanter Pflegedienst in Kassel. Professionelle Grundpflege, Behandlungspflege und Betreuung. Jetzt Termin vereinbaren!">
+    <meta property="og:title" content="IBU Aktiv – Ambulanter Pflegedienst Kassel">
+    <meta property="og:description" content="Professionelle, herzliche Pflege in Kassel & Umgebung. Grundpflege, Behandlungspflege, Betreuung – individuell auf Sie abgestimmt.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ibuaktiv.de">
+    <meta property="og:image" content="https://www.ibuaktiv.de/images/headerlogo.png">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <!-- ── Stylesheets ── -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.pngg">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+
+  </head>
+  <body>
+
+    <!-- ══════════ NAVIGATION ══════════ -->
+    <nav id="navbar">
+      <a class="nav-logo" href="#">
+        <img src="images/headerlogo.png"
+          alt="IBU Aktiv – Ambulanter Pflegedienst" class="logo-img">
+      </a>
+      <ul class="nav-links">
+        <li><a href="#philosophie">Philosophie</a></li>
+        <li><a href="#leistungen">Leistungen</a></li>
+       <!-- <li><a href="#team">Team</a></li>-->
+       <li><a href="#kontakt">Kontakt</a></li>
+       <li><a href="karriere.html">Karriere</a></li>
+       <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+      <a href="tel:056131753006" class="nav-phone">📞 0561 317 53 006</a>
+      <a href="#kontakt" class="nav-cta">Termin anfragen</a>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- ══════════ HERO ══════════ -->
+    <section id="hero">
+      <!-- Hintergrundbild mit Fade von links nach rechts -->
+      <div class="hero-bg-img">
+        <img src="images/image 6sd.jpg" alt="Pflege bei IBU Aktiv">
+        <div class="hero-fade-overlay"></div>
+      </div>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-badge"><span class="badge-dot"></span>Ihr
+            vertrauensvoller Pflegeservice in Kassel</div>
+          <h1>Gute <em>Pflege</em><br>beginnt mit<br>guter Betreuung</h1>
+          <p class="hero-sub">Wir holen Sie dort ab, wo Sie stehen – und
+            erstellen gemeinsam mit Ihnen Ihr individuelles Pflegekonzept.
+            Professionell, persönlich, ganzheitlich.</p>
+          <div class="hero-btns">
+            <a href="#kontakt" class="btn-primary">Jetzt Termin vereinbaren</a>
+            <a href="#leistungen" class="btn-outline-white">Unsere Leistungen
+              ↓</a>
+          </div>
+          <div class="hero-trust">
+            <div class="trust-item"><span class="t-check">✓</span> Qualifizierte
+              Fachkräfte</div>
+            <div class="trust-item"><span class="t-check">✓</span> Individueller
+              Pflegeplan</div>
+            <div class="trust-item"><span class="t-check">✓</span> Ganzheitliche
+              Betreuung</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats-Leiste -->
+      <div class="stats-bar">
+        <div class="stat-item"><div class="stat-num">24/7</div><div
+            class="stat-lbl">Erreichbarkeit</div></div>
+        <div class="stat-div"></div>
+        <div class="stat-item"><div class="stat-num">100%</div><div
+            class="stat-lbl">Individuelle Pflege</div></div>
+        <div class="stat-div"></div>
+        <div class="stat-item"><div class="stat-num">Mo–Fr</div><div
+            class="stat-lbl">8:00 – 16:00 Uhr</div></div>
+        <div class="stat-div"></div>
+        <div class="stat-item"><div class="stat-num">Kassel</div><div
+            class="stat-lbl">&amp; Umgebung</div></div>
+      </div>
+    </section>
+
+    <!-- ══════════ MDK QUALITÄTSNACHWEIS ══════════ -->
+    <section id="qualitaet" style="padding: 72px 52px; background: var(--white);">
+      <div class="section-label reveal">Geprüfte Qualität</div>
+      <h2 class="reveal">Offiziell <em>zertifiziert</em></h2>
+      <p class="section-intro reveal" style="margin-bottom: 40px;">
+        Unser Pflegedienst wird regelmäßig durch den Medizinischen Dienst geprüft –
+        damit Sie sich auf uns verlassen können.
+      </p>
+      <div class="reveal" style="display: flex; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+
+        <!-- Bild als klickbare Vorschau -->
+        <div style="flex: 1; min-width: 280px; max-width: 520px;">
+          <div style="position: relative; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-lg); cursor: pointer; border: 1px solid var(--border);"
+               onclick="document.getElementById('mdk-lightbox').style.display='flex'">
+            <img src="images/MD.jpg"
+                 alt="MDK Qualitätsprüfbericht IBU Aktiv – Note 1,7 gut"
+                 style="width: 100%; display: block; transition: transform 0.4s ease;"
+                 onmouseover="this.style.transform='scale(1.02)'"
+                 onmouseout="this.style.transform='scale(1)'">
+            <!-- Overlay mit Lupe-Hinweis -->
+            <div style="position: absolute; inset: 0; background: rgba(26,77,46,0.0); display: flex; align-items: flex-end; padding: 16px; transition: background 0.3s;"
+                 onmouseover="this.style.background='rgba(26,77,46,0.18)'"
+                 onmouseout="this.style.background='rgba(26,77,46,0.0)'">
+              <span style="background: rgba(26,77,46,0.85); color: white; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 50px; letter-spacing: 0.03em;">
+                🔍 Prüfbericht vergrößern
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- Ende flex-wrapper -->
+    </section><!-- Ende #qualitaet -->
+
+    <!-- Lightbox für MDK-Bericht -->
+    <div id="mdk-lightbox"
+         style="display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(10,25,15,0.85); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 20px;"
+         onclick="this.style.display='none'">
+      <div style="max-width: 900px; width: 100%; position: relative;" onclick="event.stopPropagation()">
+        <button onclick="document.getElementById('mdk-lightbox').style.display='none'"
+                style="position: absolute; top: -16px; right: -16px; width: 40px; height: 40px; border-radius: 50%; background: white; border: none; font-size: 20px; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 1; box-shadow: 0 4px 16px rgba(0,0,0,0.3);">✕</button>
+        <img src="images/MD.jpg"
+             alt="MDK Qualitätsprüfbericht IBU Aktiv"
+             style="width: 100%; border-radius: 12px; box-shadow: 0 24px 80px rgba(0,0,0,0.5); display: block;">
+        <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 13px; margin-top: 12px;">Klicken Sie außerhalb des Bildes zum Schließen</p>
+      </div>
+    </div>
+
+    <!-- ══════════ PHILOSOPHIE ══════════ -->
+    <section id="philosophie">
+      <div class="section-label reveal">Unsere Werte</div>
+      <h2 class="reveal">Warum <em>IBU Aktiv?</em></h2>
+      <p class="section-intro reveal">IBU AKTIV steht für kompetente, herzliche
+        Pflege – individuell auf jeden Menschen abgestimmt.</p>
+      <div class="phil-grid">
+        <div class="phil-card reveal">
+          <div class="pc-icon"><svg width="44" height="44" viewBox="0 0 44 44"
+              fill="none"><rect width="44" height="44" rx="14"
+                fill="#e8f5e9" /><path
+                d="M22 8 L34 13 L34 24 Q34 33 22 38 Q10 33 10 24 L10 13 Z"
+                fill="#2d7a4f" opacity="0.18" /><path
+                d="M22 10 L33 14.5 L33 24 Q33 31.5 22 36 Q11 31.5 11 24 L11 14.5 Z"
+                stroke="#1a4d2e" stroke-width="2" fill="none" /><path
+                d="M16 22 L20 26 L28 18" stroke="#2d7a4f" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" /></svg></div>
+          <h3>Zuverlässig</h3>
+          <p>Eine verantwortungsvolle Aufgabe ist unsere Berufung. Auf uns
+            können Sie sich jederzeit verlassen.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="pc-icon"><svg width="44" height="44" viewBox="0 0 44 44"
+              fill="none"><rect width="44" height="44" rx="14"
+                fill="#e8f5e9" /><circle cx="22" cy="16" r="7" fill="#2d7a4f"
+                opacity="0.25" /><circle cx="22" cy="16" r="5" stroke="#1a4d2e"
+                stroke-width="2" fill="none" /><path
+                d="M10 36 Q10 27 22 27 Q34 27 34 36" stroke="#1a4d2e"
+                stroke-width="2" stroke-linecap="round"
+                fill="none" /></svg></div>
+          <h3>Persönlich</h3>
+          <p>Qualifizierte und fachgerechte Betreuung ist unser Standard –
+            individuell auf Sie abgestimmt.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="pc-icon"><svg width="44" height="44" viewBox="0 0 44 44"
+              fill="none"><rect width="44" height="44" rx="14"
+                fill="#e8f5e9" /><rect x="12" y="12" width="20" height="24"
+                rx="4" fill="#2d7a4f" opacity="0.18" /><rect x="12" y="12"
+                width="20" height="24" rx="4" stroke="#1a4d2e" stroke-width="2"
+                fill="none" /><rect x="18" y="9" width="8" height="6" rx="2"
+                fill="#1a4d2e" /><line x1="17" y1="21" x2="27" y2="21"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /><line x1="17" y1="25" x2="27" y2="25"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /><line x1="17" y1="29" x2="23" y2="29"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /></svg></div>
+          <h3>Individuell</h3>
+          <p>Regelmäßige Pflegeplanung und Visiten für Ihre optimale Versorgung
+            im Alltag.</p>
+        </div>
+        <div class="phil-card reveal">
+          <div class="pc-icon"><svg width="44" height="44" viewBox="0 0 44 44"
+              fill="none"><rect width="44" height="44" rx="14"
+                fill="#e8f5e9" /><path
+                d="M22 34 Q14 29 10 22 Q8 16 13 12 Q17 9 20 13 L20 21"
+                stroke="#1a4d2e" stroke-width="2" stroke-linecap="round"
+                fill="none" /><path
+                d="M22 34 Q30 29 34 22 Q36 16 31 12 Q27 9 24 13 L24 21"
+                stroke="#1a4d2e" stroke-width="2" stroke-linecap="round"
+                fill="none" /><circle cx="22" cy="19" r="4"
+                fill="#7cc43e" /></svg></div>
+          <h3>Ganzheitlich</h3>
+          <p>Enge Zusammenarbeit mit Angehörigen, Ärzten und weiteren
+            Berufsgruppen.</p>
+        </div>
+      </div>
+
+      <!-- Zitat Banner mit echtem Foto -->
+      <div class="quote-banner reveal">
+        <div class="qb-img">
+          <img src="images/image 8.jpeg" alt="Fürsorge und Vertrauen"
+            class="qb-real-img">
+          <div class="qb-img-overlay"></div>
+        </div>
+        <div class="qb-text-wrap">
+          <div class="qb-mark">"</div>
+          <p class="qb-quote">Wir können hier nicht alles erwähnen, was wir für
+            Sie tun können.</p>
+          <p class="qb-author">— IBU Aktiv, Ambulanter Pflegedienst · Kassel</p>
+          <a href="#kontakt" class="btn-white">Jetzt beraten lassen →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ LEISTUNGEN ══════════ -->
+    <section id="leistungen" class="bg-light">
+      <div class="section-label reveal">Was wir bieten</div>
+      <h2 class="reveal">Unsere <em>Leistungen</em> im Überblick</h2>
+      <p class="section-intro reveal">Von der Grundpflege bis zur medizinischen
+        Behandlung – wir sind für Sie da.</p>
+
+      <!-- Feature: echtes Pflegefoto + Text -->
+      <div class="leistung-feature reveal">
+        <div class="lf-img">
+          <img src="images/image7.jpeg"
+            alt="Pflegerin kümmert sich um ältere Dame" class="lf-real-img">
+        </div>
+        <div class="lf-text">
+          <div class="section-label" style="margin-bottom:12px;">Unsere
+            Stärke</div>
+          <h3>Pflege mit Herz &amp; Fachkompetenz</h3>
+          <p>Unser Team kommt direkt zu Ihnen nach Hause. Wir unterstützen Sie
+            bei allen alltäglichen Aufgaben – immer mit dem nötigen Respekt für
+            Ihre Privatsphäre und Würde.</p>
+          <ul class="lf-list">
+            <li>✓ Körperpflege &amp; Hygiene</li>
+            <li>✓ Medikamentengabe &amp; Überwachung</li>
+            <li>✓ Wundversorgung</li>
+            <li>✓ Begleitung &amp; Betreuung zu Hause</li>
+          </ul>
+          <a href="#kontakt" class="btn-primary"
+            style="display:inline-block;margin-top:24px;">Beratung anfordern</a>
+        </div>
+      </div>
+
+      <div class="lk-grid">
+        <div class="lk-card reveal">
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#e8f5e9" /><path
+                d="M24 12 Q30 20 32 26 Q32 33 24 36 Q16 33 16 26 Q18 20 24 12Z"
+                fill="#2d7a4f" opacity="0.22" /><path
+                d="M24 13 Q29 21 31 27 Q31 32 24 35 Q17 32 17 27 Q19 21 24 13Z"
+                stroke="#1a4d2e" stroke-width="1.8" fill="none" /></svg></div>
+          <h3>Grundpflege</h3>
+          <ul class="lk-list">
+            <li>Körperpflege: Duschen / Baden</li>
+            <li>Zahnpflege, Kämmen, Rasieren</li>
+            <li>An- und Auskleiden</li>
+            <li>Bewegung und Transfer</li>
+            <li>Toilettengänge</li>
+          </ul>
+          <div class="lk-tag">§ 36 SGB XI</div>
+        </div>
+        <div class="lk-card lk-featured reveal">
+          <div class="lk-badge-top">Am häufigsten</div>
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#1a4d2e" /><rect
+                x="14" y="21" width="22" height="7" rx="3.5"
+                fill="rgba(255,255,255,0.25)" /><path d="M34 24 L43 15"
+                stroke="white" stroke-width="2" stroke-linecap="round" /><path
+                d="M38 11 L44 17" stroke="white" stroke-width="2"
+                stroke-linecap="round" /><path d="M7 24 L14 24" stroke="white"
+                stroke-width="2.5" stroke-linecap="round" /><path
+                d="M7 20 L7 28" stroke="white" stroke-width="2"
+                stroke-linecap="round" /></svg></div>
+          <h3>Behandlungspflege</h3>
+          <ul class="lk-list">
+            <li>Medikamentengabe &amp; Überwachung</li>
+            <li>Spritzen und Infusionen</li>
+            <li>Blutzucker- &amp; Blutdruckkontrollen</li>
+            <li>Kompressionsverbände</li>
+            <li>Moderne Wundversorgung</li>
+            <li>Parenterale Ernährung</li>
+          </ul>
+          <div class="lk-tag lk-tag-white">Auf ärztliche Verordnung</div>
+        </div>
+        <div class="lk-card reveal">
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#e8f5e9" /><path
+                d="M24 10 L37 20 L37 37 L11 37 L11 20 Z" fill="#2d7a4f"
+                opacity="0.18" /><path d="M24 11 L38 21 L38 38 L10 38 L10 21 Z"
+                stroke="#1a4d2e" stroke-width="1.8" fill="none"
+                stroke-linejoin="round" /><rect x="20" y="28" width="8"
+                height="10" rx="2" fill="#1a4d2e" opacity="0.45" /></svg></div>
+          <h3>Betreuung &amp; Entlastung</h3>
+          <ul class="lk-list">
+            <li>Essensversorgung</li>
+            <li>Einkäufe tätigen oder begleiten</li>
+            <li>Hilfe bei der Haushaltsführung</li>
+            <li>Arzttermine vereinbaren</li>
+            <li>Begleitung zu Fachärzten</li>
+            <li>Spaziergänge</li>
+          </ul>
+          <div class="lk-tag">§ 45 SGB XI</div>
+        </div>
+        <div class="lk-card reveal">
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#e8f5e9" /><path
+                d="M10 14 Q10 10 14 10 L34 10 Q38 10 38 14 L38 30 Q38 34 34 34 L28 34 L22 40 L22 34 L14 34 Q10 34 10 30 Z"
+                fill="#2d7a4f" opacity="0.18" /><path
+                d="M10 14 Q10 10 14 10 L34 10 Q38 10 38 14 L38 30 Q38 34 34 34 L28 34 L22 40 L22 34 L14 34 Q10 34 10 30 Z"
+                stroke="#1a4d2e" stroke-width="1.8" fill="none"
+                stroke-linejoin="round" /><line x1="17" y1="18" x2="31" y2="18"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /><line x1="17" y1="23" x2="31" y2="23"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /><line x1="17" y1="28" x2="25" y2="28"
+                stroke="#1a4d2e" stroke-width="1.8"
+                stroke-linecap="round" /></svg></div>
+          <h3>Beratungsgespräch</h3>
+          <ul class="lk-list">
+            <li>Kostenlose Erstberatung bei Ihnen zu Hause</li>
+            <li>Individuelle Pflegebedarfsanalyse</li>
+            <li>Beratung zu Pflegegraden &amp; Leistungen</li>
+            <li>Unterstützung bei Anträgen</li>
+            <li>Gemeinsame Pflegeplanung</li>
+          </ul>
+          <div class="lk-tag">Kostenlos &amp; unverbindlich</div>
+        </div>
+        
+        <div class="lk-card reveal">
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#e8f5e9" />
+              <path d="M15 13 L33 13 Q37 13 37 17 L37 29 Q37 33 33 33 L28 33 L24 38 L20 33 L15 33 Q11 33 11 29 L11 17 Q11 13 15 13 Z"
+                fill="#2d7a4f" opacity="0.18" />
+              <path d="M15 13 L33 13 Q37 13 37 17 L37 29 Q37 33 33 33 L28 33 L24 38 L20 33 L15 33 Q11 33 11 29 L11 17 Q11 13 15 13 Z"
+                stroke="#1a4d2e" stroke-width="1.8" fill="none" stroke-linejoin="round" />
+              <circle cx="24" cy="21" r="2.8" fill="#1a4d2e" opacity="0.55" />
+              <line x1="24" y1="25" x2="24" y2="30" stroke="#1a4d2e" stroke-width="2.2" stroke-linecap="round" />
+              </svg></div>
+          <h3>Pflegeberatungs&shy;gespräch</h3>
+          <ul class="lk-list">
+            <li>Gesetzlicher Anspruch nach § 37.3 SGB XI</li>
+            <li>Pflegegrad 2–3: alle 6 Monate</li>
+            <li>Ab Pflegegrad 4: alle 3 Monate</li>
+            <li>Qualitätssicherung der häuslichen Pflege</li>
+            <li>Unterstützung pflegender Angehöriger</li>
+          </ul>
+          <div class="lk-tag">§ 37.3 SGB XI</div>
+        </div>
+        
+        <div class="lk-card reveal">
+          <div class="lk-icon"><svg width="48" height="48" viewBox="0 0 48 48"
+              fill="none"><circle cx="24" cy="24" r="24" fill="#e8f5e9" /><path
+                d="M24 11 L26.4 19.8 L35.5 19.8 L28.4 25.1 L31 33.8 L24 28.6 L17 33.8 L19.6 25.1 L12.5 19.8 L21.6 19.8 Z"
+                fill="#7cc43e" opacity="0.38" /><path
+                d="M24 12 L26.2 20.5 L35 20.5 L28.2 25.5 L30.6 34 L24 29 L17.4 34 L19.8 25.5 L13 20.5 L21.8 20.5 Z"
+                stroke="#1a4d2e" stroke-width="1.7" fill="none"
+                stroke-linejoin="round" /></svg></div>
+          <h3>Zusätzliche Services</h3>
+          <ul class="lk-list">
+            <li>Rezeptbesorgung</li>
+            <li>Hilfsmittelbeschaffung</li>
+            <li>Schulungen für Angehörige</li>
+            <li>Individuelle Pflegeplanung</li>
+            <li>Regelmäßige Visiten</li>
+          </ul>
+          <div class="lk-tag">Auf Anfrage</div>
+        </div>
+      </div>
+    </section>
+
+    <!--
+    ========= TEAM =========
+    <section id="team"> ... </section>
+    -->
+
+    <!-- ══════════ KONTAKT ══════════ -->
+    <section id="kontakt" class="bg-light">
+      <div class="section-label reveal">Schreiben Sie uns</div>
+      <h2 class="reveal">Kontakt &amp; <em>Termin</em></h2>
+      <p class="section-intro reveal">Wir beraten und betreuen Sie gerne
+        umfassend und persönlich. Vereinbaren Sie noch heute einen Termin!</p>
+      <div class="kontakt-grid">
+        <div class="kontakt-info reveal">
+          <div class="k-items">
+            <a href="tel:056131753006" class="k-item">
+              <div class="k-ico">📞</div>
+              <div><div class="k-lbl">Telefon</div><div class="k-val">0561 317
+                  53 006</div></div>
+            </a>
+            <a href="tel:017684699926" class="k-item">
+              <div class="k-ico">📱</div>
+              <div><div class="k-lbl">Mobil</div><div class="k-val">0176 846 999
+                  26</div></div>
+            </a>
+            <a href="#" class="k-item" id="email-kontakt-link" onclick="this.href='mailto:'+atob('aW5mb0BpYnVha3Rpdi5kZQ==');return true;">
+              <div class="k-ico">✉️</div>
+              <div><div class="k-lbl">E-Mail</div><div class="k-val" id="email-kontakt-text">info@ibuaktiv.de</div></div>
+            </a>
+            <div class="k-item">
+              <div class="k-ico">📍</div>
+              <div><div class="k-lbl">Adresse</div><div class="k-val">Wolfhager
+                  Straße 453<br>34128 Kassel</div></div>
+            </div>
+            <div class="k-item">
+              <div class="k-ico">🕐</div>
+              <div><div class="k-lbl">Bürozeiten</div><div class="k-val">Mo –
+                  Fr: 8:00 – 16:00 Uhr</div><div class="k-sub">Oder nach
+                  Vereinbarung</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="kontakt-form reveal">
+          <h3>Nachricht senden</h3>
+          <form id="form-container" action="https://formspree.io/f/maqpdoqg"
+            method="POST">
+            <div class="form-row">
+              <div class="form-group"><label>Vorname *</label><input type="text"
+                  name="vorname" placeholder="Max" required></div>
+              <div class="form-group"><label>Nachname *</label><input
+                  type="text" name="nachname" placeholder="Mustermann"
+                  required></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label>E-Mail *</label><input type="email"
+                  name="email" placeholder="ihre@email.de" required></div>
+              <div class="form-group"><label>Telefon</label><input type="tel"
+                  name="telefon" placeholder="0561 ..."></div>
+            </div>
+            <div class="form-group">
+              <label>Ich interessiere mich für</label>
+              <select name="leistung">
+                <option value>Bitte wählen...</option>
+                <option>Grundpflege</option>
+                <option>Behandlungspflege</option>
+                <option>Betreuungs- &amp; Entlastungsleistungen</option>
+                <option>Beratungsgespräch</option>
+                <option>Sonstiges</option>
+              </select>
+            </div>
+            <div class="form-group"><label>Ihre Nachricht *</label><textarea
+                name="nachricht" rows="5"
+                placeholder="Beschreiben Sie kurz Ihren Bedarf oder Ihre Fragen..."
+                required></textarea></div>
+            <input type="text" name="_gotcha" style="display:none">
+            <button type="submit" class="form-submit">Nachricht absenden
+              →</button>
+            <p style="font-size:12px; margin-top:10px; color: var(--text-light); text-align:center;">🔒 Ihre Daten werden vertraulich behandelt und nicht für Werbung verwendet.</p>
+          </form>
+          <div class="form-success" id="form-success">
+            <div class="check">✅</div>
+            <strong>Vielen Dank!</strong><br>
+            Wir haben Ihre Nachricht erhalten und melden uns schnellstmöglich
+            bei Ihnen.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ IMPRESSUM ══════════ -->
+    <section id="impressum">
+      <div class="section-label reveal">Rechtliches</div>
+      <h2 class="reveal"><em>Impressum</em></h2>
+      <div class="imp-grid reveal">
+        <div class="imp-block"><h4>Angaben gemäß § 5 TMG</h4><p>IBU Aktiv –
+            Ambulanter Pflegedienst<br>Wolfhager Straße 453<br>34128
+            Kassel<br>Deutschland</p></div>
+        <div class="imp-block"><h4>Vertreten durch</h4><p>Ebrahim
+            Ayoub<br>Geschäftsführer</p></div>
+        <div class="imp-block"><h4>Kontakt</h4><p>Telefon: 0561 317 53
+            006<br>Mobil: 0176 846 999 26<br>Fax: 0561 317 53 005<br>E-Mail: <a href="#" id="email-imp-link" onclick="this.href='mailto:'+atob('aW5mb0BpYnVha3Rpdi5kZQ==');return true;">info@ibuaktiv.de</a><br>Web: <a
+              href="https://www.ibuaktiv.de"
+              target="_blank">www.ibuaktiv.de</a></p></div>
+        <div class="imp-block"><h4>Haftungsausschluss</h4><p>Die Inhalte dieser
+            Website wurden mit größtmöglicher Sorgfalt erstellt. Für die
+            Richtigkeit, Vollständigkeit und Aktualität kann keine Gewähr
+            übernommen werden.</p></div>
+        <div class="imp-block"><h4>Datenschutz</h4><p>Personenbezogene Daten werden auf freiwilliger Basis erhoben. Eine Weitergabe erfolgt an eingesetzte technische Dienstleister (z. B. Hosting-Anbieter und Formular-Dienste), soweit dies für den Betrieb der Website erforderlich ist. Weitere Informationen: <a href="datenschutz.html">Datenschutzerklärung</a></p></div>
+        <div class="imp-block"><h4>Urheberrecht</h4><p>Die Inhalte dieser
+            Website unterliegen dem deutschen Urheberrecht. Vervielfältigung
+            bedarf der schriftlichen Zustimmung des Autors.</p></div>
+      </div>
+    </section>
+
+    <!-- ══════════ FOOTER ══════════ -->
+    <footer>
+      <div class="footer-logo">
+        <img src="images/headerlogo.png" alt="IBU Aktiv" class="footer-logo-img">
+      </div>
+      <div class="footer-copy">© 2025 IBU Aktiv – Ambulanter Pflegedienst Kassel. Alle Rechte vorbehalten.</div>
+      <div class="footer-links">
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+        <a href="karriere.html">Karriere</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="tel:056131753006">0561 317 53 006</a>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="notification" id="notification">✅ Nachricht erfolgreich gesendet!</div>
+
+    <!-- ── Scripts ── -->
+    <script src="js/nav.js"></script>
+    <script src="js/form-kontakt.js"></script>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+/* ═══════════════════════════════════════
+   RESPONSIVE
+   Alle Media Queries zentral gesammelt
+═══════════════════════════════════════ */
+
+/* ── Tablet: bis 1100px ──────────────── */
+@media (max-width: 1100px) {
+  .phil-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .lk-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .leistung-feature {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+/* ── Mobil: bis 900px ────────────────── */
+@media (max-width: 900px) {
+  nav {
+    padding: 14px 22px;
+  }
+
+  nav.scrolled {
+    padding: 10px 22px;
+  }
+
+  .nav-links,
+  .nav-phone {
+    display: none;
+  }
+
+  .nav-links.mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 22px;
+    gap: 18px;
+    box-shadow: 0 8px 32px rgba(26, 77, 46, 0.12);
+    border-bottom: 2px solid rgba(26, 77, 46, 0.1);
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  section {
+    padding: 68px 22px;
+  }
+
+  /* Hero Mobil: Bild voll sichtbar mit dunklem Overlay */
+  .hero-inner {
+    padding: 100px 24px 48px;
+  }
+
+  .hero-bg-img img {
+    object-position: 70% center;
+  }
+
+  .hero-fade-overlay {
+    background: linear-gradient(135deg,
+        rgba(26, 77, 46, 0.82) 0%,
+        rgba(26, 77, 46, 0.65) 50%,
+        rgba(26, 77, 46, 0.35) 100%);
+  }
+
+  /* Text weiß auf dunklem Overlay */
+  #hero h1               { color: #ffffff; }
+  #hero h1 em            { color: #a8e063; }
+  #hero .hero-sub        { color: rgba(255, 255, 255, 0.88); }
+  #hero .hero-badge      { background: rgba(255,255,255,0.15); border-color: rgba(255,255,255,0.3); color: #ffffff; }
+  #hero .trust-item      { color: rgba(255, 255, 255, 0.85); }
+  #hero .t-check         { color: #a8e063; }
+  #hero .btn-outline     { border-color: white; color: white; background: rgba(255,255,255,0.1); }
+  #hero .btn-outline:hover { background: white; color: var(--green-dark); }
+
+  .stats-bar {
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .stat-div { display: none; }
+
+  .quote-banner { flex-direction: column; }
+  .qb-img { flex: none; height: 220px; }
+
+  .leistung-feature { grid-template-columns: 1fr; gap: 36px; }
+
+  .team-banner      { grid-template-columns: 1fr; }
+  .team-persons     { grid-template-columns: 1fr; }
+  .team-card        { grid-template-columns: 1fr; }
+  .team-img-portrait { min-height: 200px; }
+
+  .kontakt-grid     { grid-template-columns: 1fr; gap: 36px; }
+  .form-row         { grid-template-columns: 1fr; }
+
+  footer {
+    padding: 22px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 12px 20px;
+  }
+}
+
+/* ── Kleines Mobil: bis 600px ────────── */
+@media (max-width: 600px) {
+  .phil-grid { grid-template-columns: 1fr; }
+  .lk-grid   { grid-template-columns: 1fr; }
+}
+
+/* ── Karriere-Seite: bis 680px ───────── */
+@media (max-width: 680px) {
+  .karriere-page  { padding: 100px 20px 60px; }
+  .stelle-card    { padding: 22px 18px; }
+  .modal-header   { padding: 22px 22px 18px; }
+  .modal-body     { padding: 24px 22px 28px; }
+  .bew-row        { grid-template-columns: 1fr; }
+}
