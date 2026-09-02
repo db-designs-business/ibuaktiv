@@ -80,6 +80,37 @@ nav.scrolled {
   transform: translateY(0);
 }
 
+/* Breites, mehrspaltiges Dropdown: "Einsatzgebiete" */
+.dropdown--wide {
+  min-width: 520px;
+  padding: 14px;
+}
+
+.dropdown--wide ul {
+  list-style: none;
+  column-count: 2;
+  column-gap: 6px;
+}
+
+.dropdown--wide li {
+  break-inside: avoid;
+}
+
+.dropdown-all {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px 0;
+  border-top: 1px solid var(--border);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--green-dark);
+  text-decoration: none;
+}
+
+.dropdown-all:hover {
+  text-decoration: underline;
+}
+
 .dropdown a {
   display: block;
   padding: 9px 12px;

@@ -78,6 +78,21 @@
     font-weight: 700;
   }
 
+  .dropdown--wide {
+    min-width: 0;
+    padding: 2px 0 2px 14px;
+  }
+
+  .dropdown--wide ul {
+    column-count: 1;
+  }
+
+  .dropdown-all {
+    border-top: none;
+    padding: 6px 0 0;
+    margin-top: 2px;
+  }
+
   section {
     padding: 68px 22px;
   }
