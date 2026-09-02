@@ -34,6 +34,29 @@
   display: inline-block;
 }
 
+/* Fließtext-Block (Intro-Absätze) */
+.copy-block {
+  max-width: 720px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.copy-block p {
+  font-size: 15px;
+  color: var(--text-mid);
+  line-height: 1.85;
+}
+
+.copy-block p a {
+  color: var(--green-mid);
+}
+
+.copy-block p a:hover {
+  color: var(--green-dark);
+}
+
 /* Punkte-/Warum-Karten (nutzt .phil-card aus sections.css) */
 .detail-grid {
   display: grid;
