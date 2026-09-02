@@ -348,6 +348,28 @@ h2 em {
   color: rgba(255, 255, 255, 0.85);
 }
 
+.lk-more {
+  display: block;
+  margin-top: 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--green-mid);
+  text-decoration: none;
+}
+
+.lk-more:hover {
+  color: var(--green-dark);
+  text-decoration: underline;
+}
+
+.lk-featured .lk-more {
+  color: white;
+}
+
+.lk-featured .lk-more:hover {
+  color: var(--green-bright);
+}
+
 /* ═══════════════════════════════════════
    TEAM
 ═══════════════════════════════════════ */
