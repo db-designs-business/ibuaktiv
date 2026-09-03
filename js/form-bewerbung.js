@@ -118,11 +118,11 @@ document.getElementById('bewerbungForm').addEventListener('submit', async functi
     } else {
       btn.textContent = 'Bewerbung absenden →';
       btn.disabled = false;
-      alert('Fehler beim Senden. Bitte versuchen Sie es erneut oder rufen Sie uns an: 0561 317 53 006');
+      alert('Fehler beim Senden. Bitte versuchen Sie es erneut oder rufen Sie uns an: 0561 317 53 004');
     }
   } catch (err) {
     btn.textContent = 'Bewerbung absenden →';
     btn.disabled = false;
-    alert('Keine Verbindung. Bitte Internetverbindung prüfen oder anrufen: 0561 317 53 006');
+    alert('Keine Verbindung. Bitte Internetverbindung prüfen oder anrufen: 0561 317 53 004');
   }
 });
