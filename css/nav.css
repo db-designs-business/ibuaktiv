@@ -105,8 +105,11 @@ nav.scrolled {
 .hamburger {
   display: none;
   flex-direction: column;
+  justify-content: center;
   gap: 5px;
   cursor: pointer;
+  padding: 14px;
+  margin: -14px;
 }
 
 .hamburger span {

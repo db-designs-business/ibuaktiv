@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seite nicht gefunden | IBU Aktiv</title>
+  <meta name="description" content="Diese Seite existiert nicht mehr oder wurde verschoben. Finden Sie zurück zur Startseite von IBU Aktiv, Ihrem Pflegedienst in Kassel.">
+  <meta property="og:title" content="Seite nicht gefunden | IBU Aktiv">
+  <meta property="og:description" content="Diese Seite existiert nicht mehr oder wurde verschoben. Finden Sie zurück zur Startseite von IBU Aktiv.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ibuaktiv.de/404.html">
+  <meta property="og:image" content="https://www.ibuaktiv.de/images/headerlogo.png">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- ── Stylesheets ── -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/category-pages.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+</head>
+<body>
+
+<nav id="navbar">
+  <a class="nav-logo" href="index.html">
+    <img src="images/headerlogo.png" alt="IBU Aktiv" class="logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Startseite</a></li>
+    <li><a href="leistungen.html">Leistungen</a></li>
+    <li><a href="ueber-uns.html">Über uns</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="karriere.html">Karriere</a></li>
+  </ul>
+  <a href="tel:056131753004" class="nav-phone">📞 0561 317 53 004</a>
+  <a href="kontakt.html" class="nav-cta">Jetzt kostenlos beraten lassen</a>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════ 404 ══════════ -->
+<section class="hub-hero" style="min-height: 62vh; display: flex; align-items: center;">
+  <div class="hero-text" style="text-align: center; max-width: 640px; margin: 0 auto;">
+    <div class="section-label reveal" style="justify-content: center; display: flex;">Fehler 404</div>
+    <h1>Diese Seite gibt es <em>leider nicht</em></h1>
+    <p class="hero-sub">Die Seite wurde verschoben, umbenannt oder existiert nicht mehr. Kein Grund zur Sorge – von hier aus finden Sie schnell zurück.</p>
+    <div class="hero-btns" style="justify-content: center;">
+      <a href="index.html" class="btn-primary">Zur Startseite</a>
+      <a href="leistungen.html" class="btn-outline">Alle Leistungen ansehen</a>
+    </div>
+    <p style="margin-top: 32px; font-size: 15px; color: var(--text-light);">
+      Oder rufen Sie uns direkt an: <a href="tel:056131753004" style="color: var(--green-dark); font-weight: 700; text-decoration: none;">📞 0561 317 53 004</a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">
+    <img src="images/headerlogo.png" alt="IBU Aktiv" class="footer-logo-img">
+  </div>
+  <div class="footer-copy">© <span class="year"></span> IBU Aktiv – Ambulanter Pflegedienst Kassel. Alle Rechte vorbehalten.</div>
+  <div class="footer-links">
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="einsatzgebiete.html">Einsatzgebiete</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <a href="karriere.html">Karriere</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="tel:056131753004">0561 317 53 004</a>
+  </div>
+</footer>
+
+<div class="sticky-mobile-cta">
+  <a href="tel:056131753004" class="call">📞 Anrufen</a>
+  <a href="index.html">Zur Startseite</a>
+</div>
+
+<script src="js/nav.js"></script>
+<script>
+  document.querySelectorAll('.year').forEach(function(el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
+</body>
+</html>

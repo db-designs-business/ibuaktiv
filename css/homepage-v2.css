@@ -156,41 +156,4 @@
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Sticky Mobile CTA */
-.sticky-mobile-cta {
-  display: none;
-}
-
-@media (max-width: 900px) {
-  .sticky-mobile-cta {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: var(--green-dark);
-    padding: 12px 16px;
-    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.18);
-  }
-
-  .sticky-mobile-cta a {
-    flex: 1;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
-    padding: 10px;
-    border-radius: 10px;
-  }
-
-  .sticky-mobile-cta a.call {
-    background: var(--green-bright);
-  }
-
-  /* Platz für die Leiste am Seitenende schaffen */
-  body {
-    padding-bottom: 62px;
-  }
-}
+/* Sticky Mobile CTA ist jetzt in css/footer.css (sitewide, nicht nur Startseite) */

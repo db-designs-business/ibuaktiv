@@ -59,7 +59,7 @@
 }
 
 .vorteil-icon { font-size: 28px; margin-bottom: 10px; display: block; }
-.vorteil-card h4 { font-size: 14px; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
+.vorteil-card h3 { font-size: 14px; font-weight: 700; color: var(--green-dark); margin-bottom: 6px; }
 .vorteil-card p { font-size: 13px; color: var(--text-mid); line-height: 1.6; margin: 0; }
 
 /* Stellenangebote */

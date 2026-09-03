@@ -108,7 +108,7 @@
   margin-bottom: 52px;
 }
 
-.toc h3 { font-size: 15px; font-weight: 700; color: var(--green-dark); margin-bottom: 14px; }
+.toc h2 { font-size: 15px; font-weight: 700; color: var(--green-dark); margin-bottom: 14px; }
 .toc ol { padding-left: 20px; }
 .toc ol li { margin-bottom: 6px; }
 .toc ol li a { font-size: 14px; color: var(--green-mid); text-decoration: none; }

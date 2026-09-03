@@ -814,7 +814,7 @@ a.k-item:hover {
   box-shadow: var(--shadow-md);
 }
 
-.kontakt-form h3 {
+.kontakt-form h2 {
   font-size: 22px;
   font-weight: 700;
   color: var(--text);

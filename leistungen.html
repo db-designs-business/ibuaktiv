@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leistungen Kassel | Pflegedienst IBU Aktiv — Vollständige Übersicht</title>
+  <title>Alle Leistungen Kassel | IBU Aktiv</title>
   <meta name="description" content="Alle Pflegeleistungen von IBU Aktiv in Kassel im Überblick: Grundpflege, Behandlungspflege, Verhinderungspflege, Haushaltshilfe, Pflegeberatung und mehr.">
-  <meta property="og:title" content="Leistungen Kassel | Pflegedienst IBU Aktiv — Vollständige Übersicht">
+  <meta property="og:title" content="Alle Leistungen Kassel | IBU Aktiv">
   <meta property="og:description" content="Alle Pflegeleistungen von IBU Aktiv in Kassel im Überblick: Grundpflege, Behandlungspflege, Verhinderungspflege, Haushaltshilfe, Pflegeberatung und mehr.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ibuaktiv.de/leistungen.html">
+  <meta property="og:image" content="https://www.ibuaktiv.de/images/headerlogo.png">
   <link rel="canonical" href="https://www.ibuaktiv.de/leistungen.html">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
@@ -23,6 +25,47 @@
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+
+  <!-- ── Schema.org: Service (Übersicht aller Leistungen) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Ambulante Pflege",
+    "name": "Pflegeleistungen von IBU Aktiv in Kassel",
+    "provider": {
+      "@type": "MedicalBusiness",
+      "name": "IBU Aktiv",
+      "url": "https://www.ibuaktiv.de/",
+      "telephone": "+4956131753004",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wolfhager Straße 453",
+        "addressLocality": "Kassel",
+        "postalCode": "34128",
+        "addressRegion": "Hessen",
+        "addressCountry": "DE"
+      }
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Kassel",
+      "containedInPlace": { "@type": "State", "name": "Hessen" }
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Pflegeleistungen",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Grundpflege" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Behandlungspflege" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Verhinderungspflege" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haushaltshilfe" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pflegeberatung" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Altenpflege & Betreuung" } }
+      ]
+    }
+  }
+  </script>
 </head>
 <body>
 
@@ -289,6 +332,11 @@
     <a href="tel:056131753004">0561 317 53 004</a>
   </div>
 </footer>
+
+<div class="sticky-mobile-cta">
+  <a href="tel:056131753004" class="call">📞 Anrufen</a>
+  <a href="kontakt.html">Jetzt kostenlos beraten lassen</a>
+</div>
 
 <script src="js/nav.js"></script>
 <script>
