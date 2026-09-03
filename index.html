@@ -141,7 +141,7 @@
             Professionell, persönlich, ganzheitlich.</p>
           <div class="hero-btns">
             <a href="tel:056131753004" class="btn-primary">📞 Jetzt anrufen: 0561 317 53 004</a>
-            <a href="#beratung" class="btn-outline-white">Termin vereinbaren</a>
+            <a href="kontakt.html" class="btn-outline-white">Termin vereinbaren</a>
           </div>
           <div class="hero-trust">
             <div class="trust-item"><span class="t-check">✓</span> Qualifizierte
@@ -213,7 +213,7 @@
           <p class="qb-quote">Wir können hier nicht alles erwähnen, was wir für
             Sie tun können.</p>
           <p class="qb-author">— IBU Aktiv, Ambulanter Pflegedienst · Kassel</p>
-          <a href="#beratung" class="btn-white">Jetzt beraten lassen →</a>
+          <a href="kontakt.html" class="btn-white">Jetzt beraten lassen →</a>
         </div>
       </div>
     </section>
@@ -325,73 +325,18 @@
       </p>
     </section>
 
-    <!-- ══════════ LEAD-FORMULAR ══════════ -->
-    <section class="section" id="beratung">
-      <div class="section-label reveal">Kostenlos &amp; unverbindlich</div>
-      <h2 class="reveal">Ihre <em>kostenlose Beratung</em> anfordern</h2>
-      <div class="lead-form-wrap reveal">
-        <div class="kontakt-form">
-          <h3>Jetzt Kontakt aufnehmen</h3>
-          <form id="form-container" action="https://formspree.io/f/maqpdoqg" method="POST">
-            <div class="form-row">
-              <div class="form-group"><label>Name *</label><input type="text" name="name" placeholder="Max Mustermann" required></div>
-              <div class="form-group"><label>Telefon *</label><input type="tel" name="telefon" placeholder="0561 ..." required></div>
-            </div>
-            <div class="form-row">
-              <div class="form-group"><label>E-Mail *</label><input type="email" name="email" placeholder="ihre@email.de" required></div>
-              <div class="form-group">
-                <label>Gewünschte Leistung</label>
-                <select name="leistung">
-                  <option value>Bitte wählen...</option>
-                  <option>Grundpflege</option>
-                  <option>Behandlungspflege</option>
-                  <option>Verhinderungspflege</option>
-                  <option>Haushaltshilfe</option>
-                  <option>Pflegeberatung</option>
-                  <option>Altenpflege &amp; Betreuung</option>
-                  <option>Sonstiges</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group"><label>Ihre Nachricht</label><textarea name="nachricht" rows="4" placeholder="Beschreiben Sie kurz Ihren Bedarf oder Ihre Fragen..."></textarea></div>
-            <input type="text" name="_gotcha" style="display:none">
-            <button type="submit" class="form-submit">Kostenlose Beratung anfordern →</button>
-          </form>
-          <div class="form-success" id="form-success">
-            <div class="check">✅</div>
-            <strong>Vielen Dank!</strong><br>
-            Wir haben Ihre Anfrage erhalten und melden uns garantiert innerhalb von 48 Stunden bei Ihnen.
-          </div>
-        </div>
-        <p class="lead-form-note">🔒 Unverbindlich. Wir melden uns garantiert innerhalb von 48 Stunden. Lieber alle Details auf einen Blick? <a href="kontakt.html" style="color:var(--green-mid);font-weight:600;">Zur vollständigen Kontaktseite →</a></p>
-      </div>
-    </section>
-
-    <!-- ══════════ WEITERE LEISTUNGEN (Sekundäre Kategorien) ══════════ -->
-    <section id="leistungen" class="bg-light">
-      <div class="section-label reveal">Weitere Leistungen</div>
-      <h2 class="reveal">Mehr als nur <em>Pflege</em></h2>
-      <div class="lk-grid reveal" style="grid-template-columns:repeat(3,1fr); margin-top:40px;">
-        <div class="lk-card">
-          <h3>Haushaltshilfe</h3>
-          <p style="font-size:14px;color:var(--text-mid);line-height:1.7;">Einkaufen, Kochen, Wäsche, Aufräumen – wir übernehmen genau die Aufgaben, die im Alltag gerade zu viel werden. Abrechenbar über den Entlastungsbetrag oder die Pflegekasse.</p>
-          <a href="haushaltshilfe-kassel.html" class="lk-more">Mehr erfahren →</a>
-        </div>
-        <div class="lk-card lk-featured">
-          <h3>Pflegeberatung</h3>
-          <p style="font-size:14px;color:rgba(255,255,255,.85);line-height:1.7;">Kostenlose Pflegeberatung inkl. Beratungsbesuch nach § 37.3 SGB XI, Unterstützung bei Anträgen und allen Fragen zur Kostenübernahme.</p>
-          <a href="pflegeberatung-kassel.html" class="lk-more">Mehr erfahren →</a>
-        </div>
-        <div class="lk-card">
-          <h3>Altenpflege &amp; Betreuung</h3>
-          <p style="font-size:14px;color:var(--text-mid);line-height:1.7;">Gespräche, Spaziergänge, Begleitung zu Terminen – Entlastung für pflegende Angehörige, abrechenbar über den Entlastungsbetrag nach § 45b SGB XI.</p>
-          <a href="altenpflege-kassel.html" class="lk-more">Mehr erfahren →</a>
-        </div>
+    <!-- ══════════ MINI-CTA (statt Kontaktformular) ══════════ -->
+    <section class="section" style="text-align:center;">
+      <h2 class="reveal">Bereit für Ihr <em>kostenlose Erstgespräch</em>?</h2>
+      <p class="section-intro reveal" style="max-width:560px;margin-left:auto;margin-right:auto;">Rufen Sie uns direkt an oder schreiben Sie uns über unser Kontaktformular – wir melden uns garantiert innerhalb von 48 Stunden.</p>
+      <div class="reveal" style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:28px;">
+        <a href="tel:056131753004" class="btn-primary">📞 Jetzt anrufen: 0561 317 53 004</a>
+        <a href="kontakt.html" class="btn-outline">Kontaktformular öffnen</a>
       </div>
     </section>
 
     <!-- ══════════ KERNLEISTUNGEN ══════════ -->
-    <section class="section">
+    <section id="leistungen" class="section">
       <div class="section-label reveal">Unsere Kernleistungen</div>
       <h2 class="reveal">Pflege, auf die <em>Sie sich verlassen können</em></h2>
       <div class="lk-grid reveal" style="grid-template-columns:repeat(3,1fr); margin-top:40px;">
@@ -411,8 +356,38 @@
           <a href="verhinderungspflege-kassel.html" class="lk-more">Mehr erfahren →</a>
         </div>
       </div>
+    </section>
+
+    <!-- ══════════ WEITERE LEISTUNGEN (Sekundäre Kategorien) ══════════ -->
+    <section class="bg-light">
+      <div class="section-label reveal">Weitere Leistungen</div>
+      <h2 class="reveal">Mehr als nur <em>Pflege</em></h2>
+      <div class="lk-grid reveal" style="grid-template-columns:repeat(3,1fr); margin-top:40px;">
+        <div class="lk-card">
+          <h3>Haushaltshilfe</h3>
+          <p style="font-size:14px;color:var(--text-mid);line-height:1.7;">Einkaufen, Kochen, Wäsche, Aufräumen – wir übernehmen genau die Aufgaben, die im Alltag gerade zu viel werden. Abrechenbar über den Entlastungsbetrag oder die Pflegekasse.</p>
+          <a href="haushaltshilfe-kassel.html" class="lk-more">Mehr erfahren →</a>
+        </div>
+        <div class="lk-card lk-featured">
+          <h3>Pflegeberatung</h3>
+          <p style="font-size:14px;color:rgba(255,255,255,.85);line-height:1.7;">Kostenlose Pflegeberatung inkl. Beratungsbesuch nach § 37.3 SGB XI, Unterstützung bei Anträgen und allen Fragen zur Kostenübernahme.</p>
+          <a href="pflegeberatung-kassel.html" class="lk-more">Mehr erfahren →</a>
+        </div>
+        <div class="lk-card">
+          <h3>Altenpflege &amp; Betreuung</h3>
+          <p style="font-size:14px;color:var(--text-mid);line-height:1.7;">Gespräche, Spaziergänge, Begleitung zu Terminen – Entlastung für pflegende Angehörige, abrechenbar über den Entlastungsbetrag nach § 45b SGB XI.</p>
+          <a href="altenpflege-kassel.html" class="lk-more">Mehr erfahren →</a>
+        </div>
+      </div>
       <p class="reveal" style="text-align:center;margin-top:36px;">
         <a href="leistungen.html" style="color:var(--green-mid);font-weight:600;text-decoration:none;">Alle Leistungen im Überblick ansehen →</a>
+      </p>
+    </section>
+
+    <!-- ══════════ MINI-CTA (schlanker Streifen) ══════════ -->
+    <section style="background:var(--green-bg);padding:44px 52px;text-align:center;">
+      <p class="reveal" style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--green-dark);margin:0;">
+        Fragen zu Kosten oder Pflegegrad? <a href="tel:056131753004" style="color:var(--green-mid);text-decoration:underline;">Rufen Sie uns an: 0561 317 53 004</a>
       </p>
     </section>
 
@@ -517,7 +492,7 @@
       <a href="tel:056131753004" class="cta-phone">0561 317 53 004</a>
       <div class="cta-btns">
         <a href="tel:056131753004" class="btn-white">📞 Jetzt anrufen</a>
-        <a href="#beratung" class="btn-outline-white" style="color:#fff;border-color:#fff;">Online Beratung anfragen</a>
+        <a href="kontakt.html" class="btn-white">Kostenlos beraten lassen</a>
       </div>
       <p class="hours">Mo – Fr: 8:00 – 16:00 Uhr · 24/7 Rufbereitschaft</p>
     </section>
@@ -541,15 +516,11 @@
     <!-- Sticky Mobile CTA -->
     <div class="sticky-mobile-cta">
       <a href="tel:056131753004" class="call">📞 Anrufen</a>
-      <a href="#beratung">Beratung anfordern</a>
+      <a href="kontakt.html">Beratung anfordern</a>
     </div>
-
-    <!-- Toast Notification -->
-    <div class="notification" id="notification">✅ Nachricht erfolgreich gesendet!</div>
 
     <!-- ── Scripts ── -->
     <script src="js/nav.js"></script>
-    <script src="js/form-kontakt.js"></script>
     <script>
       document.querySelectorAll('.year').forEach(function(el) {
         el.textContent = new Date().getFullYear();

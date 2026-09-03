@@ -319,6 +319,33 @@ h2 em {
   position: relative;
 }
 
+.lk-more {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 8px 18px;
+  background: var(--green-mid);
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.lk-more:hover {
+  background: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+.lk-featured .lk-more {
+  background: white;
+  color: var(--green-dark);
+}
+
+.lk-featured .lk-more:hover {
+  background: var(--green-pale);
+}
+
 .lk-featured .lk-list li {
   color: rgba(255, 255, 255, 0.75);
 }
