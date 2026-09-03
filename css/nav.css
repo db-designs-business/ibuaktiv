@@ -102,6 +102,10 @@ nav.scrolled {
   transform: translateY(-1px);
 }
 
+.nav-cta-mobile {
+  display: none;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
