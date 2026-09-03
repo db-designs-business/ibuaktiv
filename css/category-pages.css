@@ -132,6 +132,32 @@
   .breadcrumbs { padding: 16px 22px; }
 }
 
+/* Stadtteil-Chips (Einsatzgebiete-Seite) */
+.area-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.area-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 20px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 50px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.area-chip .pin {
+  color: var(--green-mid);
+  font-size: 13px;
+}
+
 /* ═══════════════════════════════════════
    HUB-HERO (kompakte Variante ohne Foto,
    für /leistungen)
