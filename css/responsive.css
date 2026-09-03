@@ -17,10 +17,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .detail-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .leistung-feature {
     grid-template-columns: 1fr;
     gap: 36px;
@@ -60,49 +56,8 @@
     display: flex;
   }
 
-  .dropdown {
-    position: static;
-    opacity: 1;
-    visibility: visible;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    background: transparent;
-    padding: 2px 0 2px 14px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .has-dropdown > a {
-    font-weight: 700;
-  }
-
-  .dropdown--wide {
-    min-width: 0;
-    padding: 2px 0 2px 14px;
-  }
-
-  .dropdown--wide ul {
-    column-count: 1;
-  }
-
-  .dropdown-all {
-    border-top: none;
-    padding: 6px 0 0;
-    margin-top: 2px;
-  }
-
   section {
     padding: 68px 22px;
-  }
-
-  .content-hero {
-    padding: 100px 22px 20px;
-  }
-
-  .cta-band {
-    padding: 52px 22px;
   }
 
   /* Hero Mobil: Bild voll sichtbar mit dunklem Overlay */
@@ -170,7 +125,6 @@
   .phil-grid    { grid-template-columns: 1fr; }
   .lk-grid      { grid-template-columns: 1fr; }
   .review-grid  { grid-template-columns: 1fr; }
-  .detail-grid  { grid-template-columns: 1fr; }
 }
 
 /* ── Karriere-Seite: bis 680px ───────── */
